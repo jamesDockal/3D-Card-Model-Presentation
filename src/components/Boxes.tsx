@@ -61,7 +61,7 @@ const Box = ({ color }: BoxProps) => {
 export function Boxes() {
   return (
     <>
-      {Array.from({ length: 100 }).map((e, i) => (
+      {Array.from({ length: 150 }).map((e, i) => (
         <Box
           key={i}
           color={i % 2 === 0 ? [0.4, 0.1, 0.1] : [0.05, 0.15, 0.4]}
