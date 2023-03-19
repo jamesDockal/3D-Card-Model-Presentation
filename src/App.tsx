@@ -4,6 +4,7 @@ import React, { Suspense } from 'react';
 import { Car } from './components/car';
 import { CarShow } from './components/CarShow';
 import { Ground } from './components/Ground';
+import { Rings } from './components/Rings';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Canvas shadows>
         <CarShow />
         <Ground />
-        <Car />
+        {/* <Car /> */}
+        <Rings />
       </Canvas>
     </Suspense>
   );
