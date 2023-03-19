@@ -1,6 +1,7 @@
 import { OrbitControls, PerspectiveCamera } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 import React, { Suspense } from 'react';
+import { Car } from './components/car';
 import { CarShow } from './components/CarShow';
 import { Ground } from './components/Ground';
 
@@ -10,6 +11,7 @@ function App() {
       <Canvas shadows>
         <CarShow />
         <Ground />
+        <Car />
       </Canvas>
     </Suspense>
   );
