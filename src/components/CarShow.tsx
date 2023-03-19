@@ -1,5 +1,6 @@
 import {
   CubeCamera,
+  Effects,
   Environment,
   OrbitControls,
   PerspectiveCamera,
@@ -161,6 +162,8 @@ export const CarShow = () => {
         castShadow
         shadow-bias={-0.0001}
       />
+
+      <Effects />
     </>
   );
 };
